@@ -112,3 +112,11 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+## Steps to generate the plot files :
+
+    - Please ensure that the household_power_consumption.txt file is in the same directory of the r files.
+    - Each R file has a function correspoiding to the plot. for example plot1.R has a function called create_plot1.
+    - To run the function type source("plot1.r") on the R console . Then type create_plot1() , this will generate a file 
+    called plot1.png in the directory.
+    - Do the same for the other plots , source("plot2.r") and then create_plot2 and so on.
